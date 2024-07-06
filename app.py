@@ -13,7 +13,7 @@ app = Flask(__name__)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Define data directory and model path
-model_path = "./project/savedmodel/resnet50_model.pth"
+model_path = "F://svr/movies/dataset/savedmodel/resnet50_model.pth"
 
 # Define data transforms
 data_transforms = transforms.Compose([
