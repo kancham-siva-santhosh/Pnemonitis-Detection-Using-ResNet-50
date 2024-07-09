@@ -14,18 +14,7 @@ To use the trained model for pneumonitis detection:
 - Install necessary dependencies : pip install -r requirements.txt
 - Place the folders as in the below format
 - ![image](https://github.com/kancham-siva-santhosh/Pnemonitis-Detection-Using-ResNet-50/assets/145050571/ab4e0539-6668-498a-a33b-0666d139e084)
-
-- project_folder/
-│
-├── app.py
-│
-├── templates/
-│   ├── index.html
-│   └── result.html
-│
-└── static/
-    └── styles.css
-Run the command after navigating to the cloned folder : python app.py
+- Run the command after navigating to the cloned folder : python app.py
 ## Contributing
 
 Contributions to the project are welcome. Please fork the repository, create a new branch, commit your changes, and open a pull request.
