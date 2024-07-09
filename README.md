@@ -11,7 +11,19 @@ Detailed results of the model's performance on the test set, including confusion
 
 To use the trained model for pneumonitis detection:
 - Clone the repository.
-- Install necessary dependencies 
+- Install necessary dependencies : pip install -r requirements.txt
+- Place the folders as in the below format
+- project_folder/
+│
+├── app.py
+│
+├── templates/
+│   ├── index.html
+│   └── result.html
+│
+└── static/
+    └── styles.css
+Run the command after navigating to the cloned folder : python app.py
 ## Contributing
 
 Contributions to the project are welcome. Please fork the repository, create a new branch, commit your changes, and open a pull request.
